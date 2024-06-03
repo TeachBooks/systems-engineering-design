@@ -1,6 +1,5 @@
 # Chapter 01 - Introduction to the book
 
-# ![Sanatorium_Kurpaty](./images/Sanatorium_Kurpaty.JPG "Sanatorium Kurpaty") 
 
 ```{figure} ../images/Sanatorium_Kurpaty.JPG
 ---
