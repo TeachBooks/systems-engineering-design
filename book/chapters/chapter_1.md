@@ -1,7 +1,7 @@
 # Chapter 01 - Introduction to the book
 
 
-```{figure} ./images/Sanatorium_Kurpaty.JPG
+```{figure} ../images/Sanatorium_Kurpaty.JPG
 ---
 width: 70%
 name: Sanatorium_Kurpaty
