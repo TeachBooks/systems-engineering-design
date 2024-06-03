@@ -8,16 +8,7 @@ parts:
     - file: some_content/overview.md
 
     - file: chapters/chapter_1.md
-    - file: chapter3.md
 
-    - file: chapter2.md
-    - file: some_content/overview.md
-    - file: chapter3.md
-# START REMOVE-FROM-PUBLISH
-
-      sections:
-      - file: some_content/text_and_code.ipynb
-      - file: chapter1.md
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
