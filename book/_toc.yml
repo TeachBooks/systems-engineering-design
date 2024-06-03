@@ -4,6 +4,12 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
+
+    - file: some_content/overview.md
+
+    - file: chapters/chapter-1.md
+    - file: chapter3.md
+
     - file: chapter2.md
     - file: some_content/overview.md
     - file: chapter3.md
