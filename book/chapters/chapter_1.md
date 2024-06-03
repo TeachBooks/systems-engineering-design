@@ -1,6 +1,13 @@
 # Chapter 01 - Introduction to the book
 
-![Sanatorium_Kurpaty](./images/Sanatorium_Kurpaty.JPG "Sanatorium_Kurpaty")
+    ```{figure} ./images/Sanatorium_Kurpaty.jpg
+    ---
+    width: 70%
+    name: Sanatorium Kurpaty
+    align: center
+    ---
+    Sanatorium Kurpaty
+    ```
 
 The purpose of this book is to provide the reader with a methodology to solve multi-stakeholder engineering design problems. The design process is modeled using a mathematical optimization model because of the isomorphisms between design and mathematical optimization problems. Although mathematical optimization is being used to solve such problems, classical approaches are problematic for two main reasons: 1) the scales used for rating candidate design solutions on preference do not enable fundamental mathematical operations, and 2) the commonly used weighted arithmetic mean algorithm for aggregating ratings and weights yields an infinite amount of outcomes.
 
