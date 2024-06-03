@@ -4,13 +4,17 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-<<<<<<< Updated upstream
+
     - file: some_content/overview.md
-=======
+
     - file: chapters/chapter-1.md
     - file: chapter3.md
->>>>>>> Stashed changes
+
+    - file: chapter2.md
+    - file: some_content/overview.md
+    - file: chapter3.md
 # START REMOVE-FROM-PUBLISH
+
       sections:
       - file: some_content/text_and_code.ipynb
       - file: chapter1.md
