@@ -1,4 +1,4 @@
-# Chapter 01 - Introduction to the Book
+# 1. Introduction to the Book
 
 <div style="text-align: center;">
   <img src="./images/Sanatorium_Kurpaty.JPG" alt="Sanatorium Kurpaty" width="70%">
