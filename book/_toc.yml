@@ -8,6 +8,11 @@ parts:
     - file: some_content/overview.md
 
     - file: chapters/chapter_1.md
+    - file: chapters/chapter_2.md
+      sections:
+      - file: chapters/chapter_2_1.md
+      - file: chapters/chapter_2_2.md
+      - file: chapters/chapter_2_3.md
     - file: chapters/chapter_3.md
       sections:
       - file: chapters/chapter_3_1.md
