@@ -2,6 +2,7 @@
 
 <div style="text-align: center;">
   <img src="./images/pipe.JPG" alt="Pipe" width="70%">
+  <p>'The Treachery of Images' by René Magritte</p>
 </div>
 
 The painting above shows an image of a pipe painted by Magritte. Below it, Magritte painted, "Ceci n'est pas une pipe", French for "This is not a pipe".
