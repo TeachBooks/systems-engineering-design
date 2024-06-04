@@ -1,7 +1,7 @@
 # 3.1. Modeling
 
 <div style="text-align: center;">
-  <img src="./images/pipe.JPG" alt="Pipe" width="70%">
+  <img src="./images/pipe.jpg" alt="Pipe" width="70%">
   <p>'The Treachery of Images' by René Magritte</p>
 </div>
 
