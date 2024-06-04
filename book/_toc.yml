@@ -18,6 +18,24 @@ parts:
       - file: chapters/chapter_3_1.md
       - file: chapters/chapter_3_2.md
       - file: chapters/chapter_3_3.md
+    - file: chapters/chapter_5.md
+      sections:
+      - file: chapters/chapter_5_1.md
+      - file: chapters/chapter_5_2.md
+      - file: chapters/chapter_5_3.md
+    - file: chapters/chapter_7.md
+      sections:
+      - file: chapters/chapter_7_1.md
+      - file: chapters/chapter_7_2.md
+      - file: chapters/chapter_7_3.md
+    - file: chapters/chapter_9.md
+      sections:
+      - file: chapters/chapter_9_1.md
+      - file: chapters/chapter_9_2.md
+      - file: chapters/chapter_9_3.md
+      - file: chapters/chapter_9_4.md
+
+
 
 # END REMOVE-FROM-PUBLISH
     - file: references.md
