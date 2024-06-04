@@ -8,6 +8,11 @@ parts:
     - file: some_content/overview.md
 
     - file: chapters/chapter_1.md
+    - file: chapters/chapter_3.md
+      sections:
+      - file: chapters/chapter_3_1.md
+      - file: chapters/chapter_3_2.md
+      - file: chapters/chapter_3_3.md
 
 # END REMOVE-FROM-PUBLISH
     - file: references.md
