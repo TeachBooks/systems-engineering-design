@@ -1,7 +1,7 @@
 # 2. Engineering design and scientific research
 
 <div style="text-align: center;">
-  <img src="./images/MD-11_12ft_Wind_Tunnel_Test.JPG" alt="Wind Tunnel Test" width="70%">
+  <img src="./images/MD-11_12ft_Wind_Tunnel_Test.jpg" alt="Wind Tunnel Test" width="70%">
   <p>Wind Tunnel Test</p>
 </div>
 
