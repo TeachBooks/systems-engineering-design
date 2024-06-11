@@ -1,6 +1,4 @@
 # 5.2. Decision making process
-<<<<<<< Updated upstream
-=======
 
 In a design process choice making occurs after generating design alternatives. At that moment the designers have a set of alternatives (sub)solutions and alternative combinations of (sub)solutions. All these solutions together form the so-called design space; An imaginary space that contains or envelops all the potential solutions to the design problem [Dym and Little, 2004].
 
@@ -138,5 +136,3 @@ Recall that the scores and weights are subjective and will differ for each perso
 Looking at the scores and weights it is expected that laptop A will have the highest overall preference rating and laptop C the lowest. Laptop A scores highest on all but one criterion with a relatively low weight attached to it. Contrary, laptop C scores lowest on all but one criterion with a low weight attached to it. Laptop D is expected to be a close second because it also scores highest on all but one criterion with a relative high weight attached to it. 
 
 [^2]: Ackoff, R. L. (1999). Ackoff's best: His classic writings on management. (No Title).
-
->>>>>>> Stashed changes

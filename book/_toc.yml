@@ -8,11 +8,52 @@ parts:
     - file: some_content/overview.md
 
     - file: chapters/chapter_1.md
+    - file: chapters/chapter_2.md
+      sections:
+      - file: chapters/chapter_2_1.md
+      - file: chapters/chapter_2_2.md
+      - file: chapters/chapter_2_3.md
     - file: chapters/chapter_3.md
       sections:
       - file: chapters/chapter_3_1.md
       - file: chapters/chapter_3_2.md
       - file: chapters/chapter_3_3.md
+    - file: chapters/chapter_4.md
+      sections:
+      - file: chapters/chapter_4_1.md
+      - file: chapters/chapter_4_2.md
+      - file: chapters/chapter_4_3.md
+    - file: chapters/chapter_5.md
+      sections:
+      - file: chapters/chapter_5_1.md
+      - file: chapters/chapter_5_2.md
+      - file: chapters/chapter_5_3.md
+    - file: chapters/chapter_6.md
+      sections:
+      - file: chapters/chapter_6_1.md
+      - file: chapters/chapter_6_2.md
+      - file: chapters/chapter_6_3.md
+    - file: chapters/chapter_7.md
+      sections:
+      - file: chapters/chapter_7_1.md
+      - file: chapters/chapter_7_2.md
+      - file: chapters/chapter_7_3.md
+    - file: chapters/chapter_8.md
+      sections:
+      - file: chapters/chapter_8_1.md
+      - file: chapters/chapter_8_2.md
+      - file: chapters/chapter_8_3.md
+      - file: chapters/chapter_8_4.md
+      - file: chapters/chapter_8_5.md
+      - file: chapters/chapter_8_6.md
+    - file: chapters/chapter_9.md
+      sections:
+      - file: chapters/chapter_9_1.md
+      - file: chapters/chapter_9_2.md
+      - file: chapters/chapter_9_3.md
+      - file: chapters/chapter_9_4.md
+
+
 
 # END REMOVE-FROM-PUBLISH
     - file: references.md

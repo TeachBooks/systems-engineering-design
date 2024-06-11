@@ -1,4 +1,4 @@
-# Simulation
+# 3.2. Simulation
 
 ## Simulation definition
 
