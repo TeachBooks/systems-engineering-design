@@ -28,5 +28,4 @@ Decision theory articulates the three key elements of decision-making processes 
 2. Development of expectations on the outcomes of each choice
 3. Formulation of a system of values for rating the outcomes to provide an effective ranking and thereby obtaining the preferred choice.
 
-
 [^1]: Barzilai
