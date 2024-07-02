@@ -24,7 +24,10 @@ The project developer rates a synthetic design alternative yielding a profit of 
 
 The municipality rates a synthetic design alternative having 100 affordable houses at 0, a synthetic alternative having 125 houses at 50 and a synthetic alternative having 160 houses at 100.
 
-![](/urbanplanningproblemfunctions.png)
+<div style="text-align: center;">
+  <img src="./images/urbanplanningproblemfunctions.png" alt="Urban Planning Problem Functions" width="70%">
+  <p>Urban Planning Problem Functions</p>
+</div>
 
 ## To each objective assign decision maker's weights
 
@@ -43,6 +46,9 @@ $x_1 + x_2 + x_3 + x_4 \leq 260$
 
 Running the optimization yields a local [^3] optimal design configuration where 112 houses type A, 52 type B, 63 type C and 33 type D are built. This design configuration yields a profit of &#65284;3.3M and 145 affordable houses and is shown in the below figure.
 
-![](/urbanplanningproblemresult.png)
+<div style="text-align: center;">
+  <img src="./images/urbanplanningproblemresult.png" alt="Urban Planning Problem Result" width="70%">
+  <p>Urban Planning Problem Result</p>
+</div>
 
 [^3]: The nature of non-linear optimization is such that, if the problem's feasible set is non-empty, it can only find a so-called local optimum. As a result, it may be that, depending on the start point of the search, your optimization run finds a different optimal solution than presented here. This is drawback of non-linear optimization.
