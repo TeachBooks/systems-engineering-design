@@ -11,14 +11,16 @@ Problems, as conceptualized by Ackoff have five types of components:
 The above conception of a problem can be represented by the following statement:
 
 
-$The value of the outcome = a specified relationship between the controlled variables and the uncontrolled variables$
+$$
+T h e \ v a l u e \ o f \ t h e \ o u t c o m e \ = \ a \ s p e c i f i e d \ r e l a t i o n s h i p \ b e t w e e n \ t h e \ c o n t r o l l e d \ v a r i a b l e s \ a n d \ t h e \ u n c o n t r o l l e d \ v a r i a b l e s
+$$
 
 
 Or more formally:
 
-$
-\text{U} = f(X,Y)
-$
+$$
+U = f(X,Y)
+$$
 
 This means that the utility or value of an outcome $U$ is a function of two types of variables: controllable $X$ and uncontrollable variables $Y$.
 
