@@ -24,10 +24,10 @@ A more useable concept of a model is that of an abstraction, from the real probl
 
 Some models are replicas of the physical properties (relative shape, form, and weight) of the object they represent. Others are physical models but do not have the same physical appearance as the object of their representation. A third type of model deals with symbols and numerical relationships and expressions. Each of these fits within an overall classification of four main categories:
 
-* Physical models
-* Schematic models
-* Verbal models
-* Mathematical models
+* **Physical models**
+* **Schematic models**
+* **Verbal models**
+* **Mathematical models**
 
 ### Physical models
 
@@ -51,7 +51,7 @@ Verbal models frequently provide the scenario necessary to indicate that a probl
 
 ### Mathematical models
 
-Mathematical models are perhaps the most abstract of the four classifications. These models do not look like their real-life counterparts at all. Mathematical models are built using numbers and symbols that can be transformed into functions, equations, and formulas. They also can be used to build much more complex models such as matrices or linear programming models. The user can then solve the mathematical model (seek an optimal solution) by utilizing simple techniques such as multiplication and addition or more complex techniques such as matrix algebra or Gaussian elimination. Since mathematical models frequently are easy to manipulate, they are appropriate for use with calculators and computer programs. Mathematical models can be classified according to use (description or optimization), degree of randomness (deterministic and stochastic), and degree of specificity (specific or general). Following is a more detailed discussion of mathematical model types.
+Mathematical models are perhaps the most abstract of the four classifications. These models do not look like their real-life counterparts at all. Mathematical models are built using numbers and symbols that can be transformed into functions, equations, and formulas. They also can be used to build much more complex models such as matrices or linear programming models. The user can then solve the mathematical model (seek an optimal solution) by utilizing simple techniques such as multiplication and addition or more complex techniques such as matrix algebra or Gaussian elimination. Since mathematical models frequently are easy to manipulate, they are appropriate for use with calculators and computer programs. Mathematical models can be classified according to **use** (description or optimization), **degree of randomness** (deterministic and stochastic), and **degree of specificity** (specific or general). Following is a more detailed discussion of mathematical model types.
 
 **Descriptive models** are used to merely describe something mathematically. Common statistical models in this category include the mean, median, mode, range, and standard deviation. Consequently, these phrases are called 'descriptive statistics.' Balance sheets, income statements, and financial ratios also are descriptive in nature.
 
@@ -59,4 +59,4 @@ Mathematical models are perhaps the most abstract of the four classifications. T
 
 **Deterministic models** are those for which the value of their variables is known with certainty. In a previous example, the manager knew profit margins and constraint values with certainty. This makes the linear programming model a deterministic optimization model.
 
-**Stochastic** or probabilistic models have values that are not known with certainty. For example, a manufacturer that is having trouble deciding whether to build a large or small facility knows that the solution to this capacity problem depends upon the volume of demand that materializes. High demand would require a large facility while low demand would require a small facility. While the manufacturer has no way of knowing with certainty what demand will be, it can at least determine the probability of the occurrence of each. For example, if the manufacturer estimates that the probability of the occurrence of high demand is 70 percent and the occurrence of low demand is 30 percent, it can use this information along with the monetary value (expected payoff) of each situation to construct mathematical models such as payoff matrices or decision trees to find an optimal decision. 
+**Stochastic** or probabilistic models have values that are not known with certainty. For example, a manufacturer that is having trouble deciding whether to build a large or small facility knows that the solution to this capacity problem depends upon the volume of demand that materializes. High demand would require a large facility while low demand would require a small facility. While the manufacturer has no way of knowing with certainty what the demand will be, it can at least determine the probability of the occurrence of each. For example, if the manufacturer estimates that the probability of the occurrence of high demand is 70 percent and the occurrence of low demand is 30 percent, it can use this information along with the monetary value (expected payoff) of each situation to construct mathematical models such as payoff matrices or decision trees to find an optimal decision. 
