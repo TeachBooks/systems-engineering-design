@@ -1,8 +1,6 @@
 # 5.1. Formal definition
 
-> In psychology, decision-making (also spelled decision making and decision making) is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational. The decision-making process is a reasoning process based on assumptions of values, preferences and beliefs of the decision-maker.[1] Every decision-making process produces a final choice, which may or may not prompt action.
-
-- <cite>Wikipedia<cite>
+> In psychology, decision-making (also spelled decision making and decision making) is regarded as the cognitive process resulting in the selection of a belief or a course of action among several possible alternative options. It could be either rational or irrational. The decision-making process is a reasoning process based on assumptions of values, preferences and beliefs of the decision-maker.[1] Every decision-making process produces a final choice, which may or may not prompt action - <cite>Wikipedia<cite>
 
 Formally decisions are made based on preference, or, to quote Barzilai [^1]:
 
@@ -24,8 +22,8 @@ When decision making problems become more complex different properties, characte
 
 Decision theory articulates the three key elements of decision-making processes as:
 
-1. Identification of options or choices
-2. Development of expectations on the outcomes of each choice
-3. Formulation of a system of values for rating the outcomes to provide an effective ranking and thereby obtaining the preferred choice.
+1. **Identification** of options or choices
+2. **Development** of expectations on the outcomes of each choice
+3. **Formulation** of a system of values for rating the outcomes to provide an effective ranking and thereby obtaining the preferred choice.
 
-[^1]: Barzilai
+[^1]: Barzilai, J. (2001). Preference Function Modeling: The Mathematical Foundations of Decision Theory.
