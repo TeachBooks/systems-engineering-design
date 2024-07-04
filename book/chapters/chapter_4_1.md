@@ -1,8 +1,6 @@
 # 4.1. Formal definition
 
-> A design is a concept of either an object, a process, or a system that is specific and, in most cases, detailed. Design refers to something that is or has been intentionally created by a thinking agent, though it is sometimes used to refer to the nature of something. The verb to design expresses the process of developing a design. In some cases, the direct construction of an object without an explicit prior plan may also be considered to be a design (such as in some artwork and craftwork). The design usually has to satisfy certain goals and constraints; may take into account aesthetic, functional, economic, or socio-political considerations; and is expected to interact with a certain environment.
-
-- <cite>Wikipedia<cite>
+> A design is a concept of either an object, a process, or a system that is specific and, in most cases, detailed. Design refers to something that is or has been intentionally created by a thinking agent, though it is sometimes used to refer to the nature of something. The verb to design expresses the process of developing a design. In some cases, the direct construction of an object without an explicit prior plan may also be considered to be a design (such as in some artwork and craftwork). The design usually has to satisfy certain goals and constraints; may take into account aesthetic, functional, economic, or socio-political considerations; and is expected to interact with a certain environment. - <cite>Wikipedia<cite>
 
 The following formal definition of engineering design is the most useful one for the purpose of this ebook [6, p.7]:
 
@@ -19,3 +17,4 @@ With further recourse to our 'design dictionary,' we note the following definiti
 * **Form**: the shape and structure of something as distinguished from its material We will not deal with form very much in this book, but form is central to industrial design, a very important part of product design.
 
 Note that objectives for a design are different from the constraints placed on a design. Objectives may be completely or partially achieved, or may not be achieved at all. Constraints, on the other hand, must be satisfied or the design is not acceptable.
+
