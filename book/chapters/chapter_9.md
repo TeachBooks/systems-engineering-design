@@ -4,4 +4,4 @@
   <img src="./images/istockphoto-184282834-612x612.jpg" alt="Chapter 9" width="70%">
 </div>
 
-This chapter describes the applications.
+This chapter explores practical applications of the concepts and methods discussed in the preceding chapters, demonstrating how preference-based approaches can be effectively implemented in engineering design.
