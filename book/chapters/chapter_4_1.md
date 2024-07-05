@@ -6,9 +6,9 @@ The following formal definition of engineering design is the most useful one for
 
 > Engineering design is a systematic, intelligent process in which engineers generate, evaluate, and specify solutions for devices, systems, or processes whose form(s) and function(s) achieve clients’ objectives and users’ needs while satisfying a specified set of constraints. In other words, engineering design is a thoughtful process for generating plans or schemes for devices, systems, or processes that attain given objectives while adhering to specified constraints.
 
-It is important to recognize that when we are designing devices, systems, and processes, we are designing artifacts: artificial, man made objects, the “things” or devices that are being designed. They are most often physical object such as airplanes, wheelchairs, ladders, cell hones, and carburetors. But “paper” products (or their electronic versions) such as drawings, plans, computer software, articles, and books are also artifacts in this sense. In this book we will use device, artifact, or system rather interchangeably as the object of our design.
+It is important to recognize that when we are designing devices, systems, and processes, we are designing artifacts: artificial, man made objects, the “**things**” or devices that are being designed. They are most often physical object such as airplanes, wheelchairs, ladders, cell hones, and carburetors. But “**paper**” products (or their electronic versions) such as drawings, plans, computer software, articles, and books are also artifacts in this sense. In this book we will use device, artifact, or system rather interchangeably as the object of our design.
 
-With further recourse to our 'design dictionary,' we note the following definitions:
+With further recourse to our '**design dictionary**', we note the following definitions:
 
 * **Design objective**: a feature or behavior that we wish the design to have or exhibit.
 * **Design constraint**: a limit or restriction on the features or behaviors of the design. A proposed design is unacceptable if these limits are violated.

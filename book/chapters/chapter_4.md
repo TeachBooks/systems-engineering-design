@@ -4,7 +4,7 @@
   <img src="./images/22.jpg" alt="Chapter 4" width="70%">
 </div>
 
-To design is to imagine and specify things that do not exist, usually with the aim of bringing them into the world. The “things” may be tangible – machines and buildings and bridges; they may be procedures – the plans for a marketing scheme or an organization or a manufacturing process.
+To design is to imagine and specify things that do not exist, usually with the aim of bringing them into the world. The “**things**” may be tangible – machines, buildings and bridges; they may be procedures – the plans for a marketing scheme, an organization or a manufacturing process.
 
 <!--more-->
 
