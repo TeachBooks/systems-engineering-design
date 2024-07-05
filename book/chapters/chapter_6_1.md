@@ -48,4 +48,4 @@ Open systems have input and output flows, representing exchanges of matter, ener
   <img src="./images/OpenSystemRepresentation.svg" alt="Chapter 4" width="70%">
 </div>
 
-
+[^1]: Ackoff
