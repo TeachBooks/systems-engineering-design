@@ -66,21 +66,21 @@ For this experiment the first design constraint relates the floor space and the 
 
 The first constraint ensures that the maximum allowed investment cannot be exceeded:
 
-$
+$$
 (2\,580 - 2\,950) 14\,142 + 2\,950 \sum_{i=1}^7 p_i+1\,400\sum_{i=1}^5 s_i \leq 74\,000\,000
-$
+$$
 
 The second constraint relates the floor space on the central location to the capacity of the existing building and extension:
 
-$
+$$
 \sum_{i=1}^7 p_i \leq 14\,142+24\,007
-$
+$$
 
 The third relates the floor space on the secondary location to the capacity of the building on the secondary location:
 
-$
+$$
 \sum_{i=1}^5 s_i \leq 13\,000
-$
+$$
 
 ### Find the optimal design having the highest preference score
 
