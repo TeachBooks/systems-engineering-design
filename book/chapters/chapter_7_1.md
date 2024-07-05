@@ -8,19 +8,19 @@ An optimization problem can be represented in the following way:
 
 * Sought: an element $x_0 \in A$ such that $f(x_0) \leq f(x)$ for all $x \in A$ ('minimization') or such that $f(x_0) \geq f(x)$ for all $x \in A$ ('maximization').
 
-Such a formulation is called an **optimization problem** or a mathematical programming problem (a term not directly related to computer programming, but still in use for example in linear programming). Many real-world and theoretical problems may be modeled in this general framework.
+Such a formulation is called an optimization problem or a mathematical programming problem (a term not directly related to computer programming, but still in use for example in linear programming). Many real-world and theoretical problems may be modeled in this general framework.
 
-Typically, $A$ is some subset of the Euclidean space ${R}^n$ [^euclidean], often specified by a set of constraints, equalities or inequalities that the members of $A$ have to satisfy. The domain $A$ of $f$ is called the **search space** or the feasible set, while the elements of $A$ are called **candidate solutions** or feasible solutions.
+Typically, $A$ is some subset of the **Euclidean space ${R}^n$** [^euclidean], often specified by a set of constraints, equalities or inequalities that the members of $A$ have to satisfy. The domain $A$ of $f$ is called the **search space** or the feasible set, while the elements of $A$ are called **candidate solutions** or feasible solutions.
 
 The function $f$ is called, variously, an **objective function**, a loss function or cost function (minimization), a utility function or fitness function (maximization), or, in certain fields, an energy function or energy functional. A feasible solution that minimizes (or maximizes, if that is the goal) the objective function is called an **optimal solution**.
 
 In mathematics, conventional optimization problems are usually stated in terms of minimization.
 
-A **local minimum** $x^*$ is defined as an element for which there exists some $δ \geq 0$ such that:
+A local minimum $x^*$ is defined as an element for which there exists some $δ \geq 0$ such that
 
 $\forall x \in A$ where $| x − x^∗ | ≤ δ$, the expression $f(x^*) \leq f(x)$ holds;
 
-That is to say, on some region around $x^*$ all of the function values are greater than or equal to the value at that element. Local maxima are defined similarly.
+that is to say, on some region around $x^*$ all of the function values are greater than or equal to the value at that element. Local maxima are defined similarly.
 
 While a local minimum is at least as good as any nearby elements, a global minimum is at least as good as every feasible element. Generally, unless the objective function is convex in a minimization problem, there may be several local minima.
 
