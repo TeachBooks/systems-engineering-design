@@ -2,7 +2,7 @@
 
 A typical engineering design process starts with a set of vague needs related to a set of (societal) problems and ends in a well defined engineering design solution. The starting point is a problematic situation that needs improvement.
 
-In Chapter 2 [Go to Chapter 2](#2.-Engineering-design-and-scientific-research) the formal generic process has been described. In this section a more formal description is used that will be useful when comparing the engineering design process to the processes of decision making, systems thinking and optimization.
+In Chapter 2 ([Chapter 2](https://teachbooks.github.io/systems-engineering-design/main/chapters/chapter_2.html)) the formal generic process has been described. In this section a more formal description is used that will be useful when comparing the engineering design process to the processes of decision making, systems thinking and optimization.
 
 A designer is normally given a program of requirements that needs to be transformed into a design solution. The step from the program of requirements to design solution requires creativity from the designer's point of view. Formally the designer will come up with a design configuration of characteristics of the new object.
 
