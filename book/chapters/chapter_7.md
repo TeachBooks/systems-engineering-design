@@ -4,5 +4,5 @@ Mathematical optimization is the selection of a best element, with regard to som
 
 <div style="text-align: center;">
   <img src="./images/optimization.png" alt="Chapter 7" width="70%">
-  <p>Graph of a surface given by \( z = f(x, y) = -(x^2 + y^2) + 4 \). The global maximum at \( (x, y, z) = (0, 0, 4) \) is indicated by a blue dot.</p>
+  <p>Graph of a surface given by $z = f(x, y) = −(x² + y²) + 4$. The global maximum at $(x, y, z) = (0, 0, 4)$ is indicated by a blue dot.</p>
 </div>
