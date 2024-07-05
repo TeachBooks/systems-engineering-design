@@ -14,7 +14,11 @@ For this problem the controlled variables are the number of Standard and Deluxe 
 
 Because of the simplicity of this optimization problem we are able to solve it graphically.
 
-Figure X: Graphical representation of the XYZ production problem.
+<div style="text-align: center;">
+  <img src="./images/chapter_7.png" alt="chapter_7" width="70%">
+  <p>Graphical representation of the XYZ production problem</p>
+</div>
+
 
 The **constraints** define the **solution space** (feasible region) which contains all allowed solutions, in this example the combinations of computer towers produced. The **objective function** and its direction (maximize/minimize) determine what is considered the **optimal solution**.
 

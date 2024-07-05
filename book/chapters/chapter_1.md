@@ -1,8 +1,7 @@
 # 1. Introduction to the Book
 
 <div style="text-align: center;">
-  <img src="./images/Sanatorium_Kurpaty.JPG" alt="Sanatorium Kurpaty" width="70%">
-  <p>Sanatorium Kurpaty</p>
+  <img src="./images/erasmus.png" alt="erasmus" width="70%">
 </div>
 
 **Systems engineering design** is about formalizing and managing the process that leads to the creation of engineering design artifacts. It focuses on the process that started with a set of vague societal needs that require addressing. At the end of this formalized process is the end result, the engineering artifact that serves as the solution to address the societal needs. Engineers are typically more interested in the engineering design object itself, without focusing too much on the societal needs to which the designed engineering artifact should be the solution for. In short, their focus is on the object, not the process.
