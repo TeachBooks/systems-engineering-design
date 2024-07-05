@@ -43,7 +43,7 @@ Take a sandcastle that has low entropy directly after its creation but will over
 
 <div style="text-align: center;">
   <img src="./images/Sandcastle1.jpg" alt="Chapter 4" width="70%">
-</div>
+</div><br>
 
 The total entropy of a closed system cannot decrease. For example, a scattered pile of papers never spontaneously orders itself into a neat stack. The heat, gases, and ash of a campfire never spontaneously re-assemble into wood.
 
@@ -59,4 +59,4 @@ Open systems have input and output flows, representing exchanges of matter, ener
   <img src="./images/OpenSystemRepresentation.svg" alt="Chapter 4" width="70%">
 </div>
 
-[^1]: Ackoff
+[^1]: Ackoff, R. L. (1999). Ackoff’s best: His classic writings on management. (No Title).

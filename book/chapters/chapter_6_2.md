@@ -35,3 +35,5 @@ in which the parts are purposeful but the whole is not.
 | Animated      | Not purposeful | Purposeful     |
 | Social        | Purposeful     | Purposeful     |
 | Ecological    | Purposeful     | Not purposeful |
+
+[^1] Ackoff, R. L. (1999). Ackoff’s best: His classic writings on management. (No Title).
