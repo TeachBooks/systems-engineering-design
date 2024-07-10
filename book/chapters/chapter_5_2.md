@@ -25,7 +25,7 @@ The choice problem can then be “solved” by using a mathematical model (of th
 | $C_2$ | 28    | 56    | 37    | 0.33      |
 | Value | 67    | 37    | 33    |           |
 
-Stevens [^Ackoff] proposed a uniqueness-based classification of scales into nominal, ordinal, interval and ration scales:
+Stevens [^Stevens] proposed a uniqueness-based classification of scales into nominal, ordinal, interval and ration scales:
 
 * **Nominal scales** represent the most unrestricted assignment of numerals. The numerals are used only as labels or type numbers, and words or letters would serve as well.
 * **Ordinal scales** arise from rank ordering. A classic example of an ordinal scale is Möhs scale of mineral hardness which characterizes the scratch resistance of various minerals through the ability of a harder material to scratch a softer material.
@@ -43,16 +43,14 @@ To appreciate the practical implications of ignoring differences and ratios, con
 | Fuel       | +        | -        |
 | Passengers | -        | +        |
 
-Since A is better than B twice while B is better than A once, design A will be chosen over B based on ordinal counting procedures. These procedures ignore the question 'by how much is A better than B?' Indeed, these procedures will indicate a preference for A even if B performs slightly less well as A on range and fuel consumption but can carry twice the number of passengers as A. Note that the concept of 'slightly less' is applicable to proper scales but is not applicable to ordinal ones. In our example, because the concepts of difference, slight difference, large difference or twice are inapplicable in the ordinal methodologies advocated by Saari [15, 16] and Dym et al. [17], these methodologies lead to an unacceptable 'cancellation' or 'trade-off' of a slight advantage in fuel consumption against a large advantage in the number of passengers.
-
-20&deg;C
+Since A is better than B twice while B is better than A once, design A will be chosen over B based on ordinal counting procedures. These procedures ignore the question 'by how much is A better than B?' Indeed, these procedures will indicate a preference for A even if B performs slightly less well as A on range and fuel consumption but can carry twice the number of passengers as A. Note that the concept of 'slightly less' is applicable to proper scales but is not applicable to ordinal ones. In our example, because the concepts of difference, slight difference, large difference or twice are inapplicable in the ordinal methodologies, these methodologies lead to an unacceptable 'cancellation' or 'trade-off' of a slight advantage in fuel consumption against a large advantage in the number of passengers.
 
 **Selection** is an important problem in engineering design. By definition, selection means making choices and choice is synonymous to preference since we choose those objects that are preferred. Therefore, the scientific foundation of selection in engineering design (and elsewhere) is the **measurement of preference**.
 
 
-## Multi_Criteria Decision Making (MCDM)
+## Multi Criteria Decision Making (MCDM)
 
-**Multi-Criteria Decision Making** (MCDM) is on of the most well know branches of decision making. According to many authors [Zimmermann, 1996] MCDM is divided into **Multi-Objective Decision Making** (MODM) making and **Multi-Attribute Decision Making** (MADM). MODM studies decision problems in which the decision space is continuous. A typical example is mathematical programming problems with multiple objective functions. On the other hand MADM concentrates on problems with discrete decision spaces. In these problems the set of decision alternatives has been predetermined.
+**Multi-Criteria Decision Making** (MCDM) is on of the most well know branches of decision making. According to many authors MCDM is divided into **Multi-Objective Decision Making** (MODM) making and **Multi-Attribute Decision Making** (MADM). MODM studies decision problems in which the decision space is continuous. A typical example is mathematical programming problems with multiple objective functions. On the other hand MADM concentrates on problems with discrete decision spaces. In these problems the set of decision alternatives has been predetermined.
 
 Although MCDM methods may be widely diverse, many of them have certain aspects in common. These are the notions of alternatives and attributes (also often called decision criteria) as described next.
 
@@ -66,9 +64,9 @@ Different criteria may be associated with different units of measure. For instan
 
 ## Theory of (preference) measurement
 
-Since the only property of relevance in the context of the mathematical foundations of decision theory is preference, decision making is founded on preference measurement. The correctness of a decision analysis methodology is determined by the correctness of the scales used for this preference measurement. The correctness of scales is defined by whether or not the scales generated allow mathematical operations, for further details see Barzilai [2, 3].
+Since the only property of relevance in the context of the mathematical foundations of decision theory is preference, decision making is founded on preference measurement. The correctness of a decision analysis methodology is determined by the correctness of the scales used for this preference measurement. The correctness of scales is defined by whether or not the scales generated allow mathematical operations, for further details see Barzilai [^Brazilai].
 
-The purpose of measurement is “to enable the powerful weapon of mathematical analysis to the subject matter of science” [5]. Phrased formally: the purpose of modeling an **empirical system E** by a **mathematical system M** is to enable the application of mathematical operations on the elements of M.
+The purpose of measurement is “to enable the powerful weapon of mathematical analysis to the subject matter of science”. Phrased formally: the purpose of modeling an **empirical system E** by a **mathematical system M** is to enable the application of mathematical operations on the elements of M.
 
 An empirical system E is a set of empirical objects together with operations which characterize the property under measurement. A mathematical model M of the empirical system is a set with operations that reflect the empirical operation in E as well as the order in E when E is ordered. A **scale s** is a mapping of the object in E into the object in M that reflects the structure of E into M.
 
@@ -98,49 +96,46 @@ Consider a decision maker who wants to buy a new laptop and has narrowed the sea
 
 The decision maker scored each laptop and assigned weights to each criterion as shown in the next table. Note that the decision maker used linear interpolation to determine intermediate scores. For instance, with regards to the criterion price, the decision maker rated a laptop with a price halfway the least and most expensive laptops at 50. The decision maker did the same for the criterion storage capacity.
 
-|                  | Laptop A | Laptop B | Laptop C | Laptop D | Weighting |
-| ---------------- | -------- | -------- | -------- | -------- | --------- |
-| Price            | 50       | 50       | 0        | 100      | 0.5       |
-| Screen size      | 100      | 0        | 100      | 100      | 0.2       |
-| Storage capacity | 100      | 50       | 0        | 50       | 0.15      |
-| Processor speed  | 100      | 0        | 0        | 100      | 0.15      |
+|                  | Weighting | Laptop A | Laptop B | Laptop C | Laptop D |
+| ---------------- | --------- | -------- | -------- | -------- | -------- |
+| Price            | 0.5       | 50       | 50       | 0        | 100      |
+| Screen size      | 0.2       | 100      | 0        | 100      | 100      |
+| Storage capacity | 0.15      | 100      | 50       | 0        | 50       |
+| Processor speed  | 0.15      | 100      | 0        | 0        | 100      |
+
 
 Looking at the scores and weights it is expected that laptop D will have the highest overall preference rating and laptop C the lowest. Laptop D scores highest on all but one criterion with a relatively low weight attached to it. Contrary, laptop C scores lowest on all but one criterion with a low weight attached to it. Laptop A is expected to be a close second because it also scores highest on all but one criterion with a relative high weight attached to it. 
 
 Recall that the scores and weights are subjective and will differ for each person. Consider the scores and weights of another person as shown in the next table. Here the decision maker rated laptops with regards to the criterion price differently and also uses a different weight distribution. In this example the decision maker is more lenient with regards to price and rates laptops with a price halfway the extremes at 75. The decision maker also considers it a less important criterion and attaches most weight to the criterion processor speed.
 
-|                  | Laptop A | Laptop B | Laptop C | Laptop D | Weighting |
-| ---------------- | -------- | -------- | -------- | -------- | --------- |
-| Price            | 75       | 75       | 0        | 100      | 0.3       |
-| Screen size      | 100      | 0        | 100      | 100      | 0.2       |
-| Storage capacity | 100      | 50       | 0        | 50       | 0.4       |
-| Processor speed  | 100      | 0        | 0        | 100      | 0.1       |
+|                  | Weighting | Laptop A | Laptop B | Laptop C | Laptop D |
+| ---------------- | --------- | -------- | -------- | -------- | -------- |
+| Price            | 0.3       | 75       | 75       | 0        | 100      |
+| Screen size      | 0.2       | 100      | 0        | 100      | 100      |
+| Storage capacity | 0.4       | 100      | 50       | 0        | 50       |
+| Processor speed  | 0.1       | 100      | 0        | 0        | 100      |
+
 
 Looking at the scores and weights it is expected that laptop A will have the highest overall preference rating and laptop C the lowest. Laptop A scores highest on all but one criterion with a relatively low weight attached to it. Contrary, laptop C scores lowest on all but one criterion with a low weight attached to it. Laptop D is expected to be a close second because it also scores highest on all but one criterion with a relative high weight attached to it. 
 
 ### Group decision making problems
 
-Recall that the scores and weights are subjective and will differ for each person. Consider the scores and weights another person as shown in the next table. Here the decision maker rated laptops with regards to the criterion price differently and also uses a different weight distribution. In this example the decision maker is more lenient with regards to price and rates laptops with a price halfway the extremes at 75. The decision maker also considers it a less important criterion and attaches most weight to the criterion processor speed.
+Consider that two decision makers will jointly buy one laptop. We use the information gatherered previously to construct a decision table and assume that the first decision maker is only interested in the laptop's price and screen size while the other decision maker is only interested in the storage capacity and processor speed. Assuming both stakeholders have the same decision maker power we can construct the following table:
 
-|                  | Laptop A | Laptop B | Laptop C | Laptop D | Weighting |
-| ---------------- | -------- | -------- | -------- | -------- | --------- |
-| Price            | 75       | 75       | 0        | 100      | 0.3       |
-| Screen size      | 100      | 0        | 100      | 100      | 0.2       |
-| Storage capacity | 100      | 50       | 0        | 50       | 0.4       |
-| Processor speed  | 100      | 0        | 0        | 100      | 0.1       |
+|                  | Weighting | Criteria          | Weighting | Laptop A | Laptop B | Laptop C | Laptop D |
+| ---------------- | --------- | ----------------- | --------- | -------- | -------- | -------- | -------- |
+| Decision maker A | 0.5       | Price             | 0.3       | 75       | 75       | 0        | 100      |
+|                  |           | Screen size       | 0.2       | 100      | 0        | 100      | 100      |
+| Decision maker B | 0.5       | Storage capacity  | 0.4       | 100      | 50       | 0        | 50       |
+|                  |           | Processor speed   | 0.1       | 100      | 0        | 0        | 100      |
 
-Looking at the scores and weights it is expected that laptop A will have the highest overall preference rating and laptop C the lowest. Laptop A scores highest on all but one criterion with a relatively low weight attached to it. Contrary, laptop C scores lowest on all but one criterion with a low weight attached to it. Laptop D is expected to be a close second because it also scores highest on all but one criterion with a relative high weight attached to it. 
-Recall that the scores and weights are subjective and will differ for each person. Consider the scores and weights another person as shown in the next table. Here the decision maker rated laptops with regards to the criterion price differently and also uses a different weight distribution. In this example the decision maker is more lenient with regards to price and rates laptops with a price halfway the extremes at 75. The decision maker also considers it a less important criterion and attaches most weight to the criterion processor speed.
+In this way we can also solve group decision making problems. The amount of weight for each stakeholder now represents their power. Determining the weight distribution needs to be approached with great care.
 
-|                  | Laptop A | Laptop B | Laptop C | Laptop D | Weighting |
-| ---------------- | -------- | -------- | -------- | -------- | --------- |
-| Price            | 75       | 75       | 0        | 100      | 0.3       |
-| Screen size      | 100      | 0        | 100      | 100      | 0.2       |
-| Storage capacity | 100      | 50       | 0        | 50       | 0.4       |
-| Processor speed  | 100      | 0        | 0        | 100      | 0.1       |
+[^Dym]: Dyme, C. (2013). Engineering design: A Project-Based Introduction, Wiley.
 
-Looking at the scores and weights it is expected that laptop A will have the highest overall preference rating and laptop C the lowest. Laptop A scores highest on all but one criterion with a relatively low weight attached to it. Contrary, laptop C scores lowest on all but one criterion with a low weight attached to it. Laptop D is expected to be a close second because it also scores highest on all but one criterion with a relative high weight attached to it. 
-
-[^Dym]: Dym, Clive L. Engineering design: A project-based introduction. John Wiley & Sons, 2004.
+[^Stevens]: Stevens, S. S. (7 June 1946). "On the Theory of Scales of Measurement". Science. 103 (2684): 677–680.
 
 [^Ackoff]: Ackoff, R. L. (1999). Ackoff's best: His classic writings on management. (No Title).
+
+[^Brazilai]: Barzilai, J. (2022). Pure Economics, FriesenPress.
+
