@@ -5,7 +5,7 @@
   <p>'The Treachery of Images' by René Magritte</p>
 </div>
 
-The painting above shows an image of a pipe painted by Magritte. Below it, Magritte painted, "Ceci n'est pas une pipe", French for "This is not a pipe".
+The image above is of a pipe painted by Magritte. Below it, Magritte painted, "Ceci n'est pas une pipe", French for "This is not a pipe".
 
 > The famous pipe. How people reproached me for it! And yet, could you stuff my pipe? No, it's just a representation, is it not? So if I had written on my picture "This is a pipe", I'd have been lying!
 
