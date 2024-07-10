@@ -4,11 +4,11 @@
   <img src="./images/erasmus.png" alt="erasmus" width="70%">
 </div>
 
-**Systems engineering design** is about formalizing and managing the process that leads to the creation of engineering design artifacts. It focuses on the process that started with a set of vague societal needs that require addressing. At the end of this formalized process is the end result, the engineering artifact that serves as the solution to address the societal needs. Engineers are typically more interested in the engineering design object itself, without focusing too much on the societal needs to which the designed engineering artifact should be the solution for. In short, their focus is on the object, not the process.
+**Systems engineering design** is about formalizing and managing the process that leads to the creation of engineering design artifacts. It focuses on the process that started with a set of vague societal needs that require addressing. At the end of this formalized process is the end result, the engineering artifact that serves as the solution to address the societal needs. Engineers are typically more interested in the engineering design object itself, without focusing too much on the societal needs to which the designed engineering artifact should be the solution for. In short, their focus is mainly on the object, not the process.
 
-Turning the focus to the engineering design object too quickly, paying little to no attention to the societal needs that are the base of the engineering design problem, is likely to end up in engineering design solutions to problems that do not exist, i.e. building that which no one wants. Take the design of the VPRO head office where key stakeholders were neglected in the design process resulting in a building that was not fit for its intended purpose.
+Turning the focus to the engineering design object too quickly, paying little to no attention to the societal needs that are the base of the engineering design problem, is likely to end up in engineering design solutions to problems that do not exist, i.e. building that which no one wants. Take the design of the VPRO head office where key stakeholders were neglected in the design process resulting in a building that was not fit for its intended purpose (Paans, 2000)[^Paans].
 
-Focusing on societal needs is in line with what is stated in TU Delft's mission statement: *"We develop technology-based innovations for some of our society’s biggest challenges."*
+Focusing on societal needs is in line with what is stated in TU Delft's mission statement: *"We develop technology-based innovations for some of our society’s biggest challenges."* [^TUDelft]
 
 The problem is formally a discrepancy between the societal needs of stakeholders versus what the engineering artifact can provide. The societal needs relate to the objectives of stakeholders (which is the domain of the social sciences) and the configuration of the to be designed engineering artifact (which is the domain of the natural sciences). The goal is to find that design configuration that has the highest overall group preference and also does not violate constraints related to physics. Put simply, the design configuration that is most desirable but also feasible.
 
@@ -28,3 +28,5 @@ Engineering design is distinct from empirical research. In Chapter 2 we make thi
 
 
 [^isomorphisms]: An isomorphism is a one-to-one correspondence between two structures, such that the relationships and operations defined on one structure are preserved in the other. In design and mathematical optimization, this means that a design problem can be mapped to an optimization problem in a way that preserves the problem's essential characteristics and constraints.
+[^Paans]: Paans, P. (2000). Villa VPRO, 3 jaar verder. VPRO, Hilversum. In Dutch
+[^TUDelft]: https://filelist.tudelft.nl/TUDelft/Over_TU_Delft/Strategie/Institutional%20plan%20TU%20Delft%20-%20EN-DEF-online.pdf
