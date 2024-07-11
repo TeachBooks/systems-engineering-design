@@ -1,7 +1,8 @@
 # 4. Engineering design fundamentals
 
 <div style="text-align: center;">
-  <img src="./images/22.jpg" alt="Chapter 4" width="70%">
+  <img src="./images/22.jpg" alt="Computer generated architecture by Filip Dujardin" width="70%">
+  <p>Computer generated architecture by Filip Dujardin</p>
 </div>
 
 To design is to imagine and specify things that do not exist, usually with the aim of bringing them into the world. The “**things**” may be tangible – machines, buildings and bridges; they may be procedures – the plans for a marketing scheme, an organization or a manufacturing process.

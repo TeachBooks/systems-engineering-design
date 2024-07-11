@@ -2,9 +2,13 @@
 
 Scientific research is a systematized form of knowledge acquisition. Science (and technology) are called “**systematic**” (or "methodological"), because these activities are not haphazard. Scientific research starts with a problem. This problem points to an unsatisfactory situation which one wants to change into a more satisfactory one. In the research cycle the problem is that the available knowledge (a collection of factual statements about the world) is not aligned, or is insufficiently aligned, to the empirical facts. The facts are unassailable [^unassailable]; hence the aim of scientific research is to change, respectively expand, the collection of factual statements (which appeared to be insufficiently “true”), in such a manner that they align better with the facts.
 
-The model of the basic research cycle is shown in the next figure.
+The model of the basic research cycle is shown on the left of the next figure.
 
-*Insert figure*
+<div style="text-align: center;">
+  <img src="./images/research and development cycles.png" alt="The research and design cycles" width="70%">
+  <p>The research and design cycles</p>
+</div>
+
 
 ## Problem
 
@@ -36,7 +40,7 @@ Deduction in the research cycle takes place entirely in the domain of the mind.
 
 ## Testing
 
-Testing can direct itself to the explanatory power or to the predictive power of the postulated laws or theories. For simplicity’s sake, we shall restrict ourselves here to the testing of predictive power. In view of the inductively acquired insight, deductively a prediction has been made (with or without the help of an experiment) on facts to be observed in the future. In the testing procedure these facts are observed and compared with the prediction. Does it fit the facts? If not, to what extent do the facts “support” the hypothesis, that is how “true” is the hypothesis? (In Figure 2.1 we used the qualitative notion of “**degree of truth**” of the hypothesis for this). In testing, the research cycle again enters the domain of the material reality. The conclusions are factual statements in the domain of the mind.
+Testing can direct itself to the explanatory power or to the predictive power of the postulated laws or theories. For simplicity’s sake, we shall restrict ourselves here to the testing of predictive power. In view of the inductively acquired insight, deductively a prediction has been made (with or without the help of an experiment) on facts to be observed in the future. In the testing procedure these facts are observed and compared with the prediction. Does it fit the facts? If not, to what extent do the facts “support” the hypothesis, that is how “true” is the hypothesis? (In the figure above we used the qualitative notion of “**degree of truth**” of the hypothesis for this). In testing, the research cycle again enters the domain of the material reality. The conclusions are factual statements in the domain of the mind.
 
 ## Evaluation
 

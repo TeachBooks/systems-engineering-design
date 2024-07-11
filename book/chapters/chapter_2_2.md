@@ -2,9 +2,12 @@
 
 Engineering design also begins with a problem that points to an unsatisfactory situation which one wants to change into a more satisfactory one.
 
-The model of the basic engineering design cycle is shown in the next figure.
+The model of the basic engineering design cycle is shown on the right in the next figure.
 
-*Insert figure*
+<div style="text-align: center;">
+  <img src="./images/research and development cycles.png" alt="The research and design cycles" width="70%">
+  <p>The research and design cycles</p>
+</div>
 
 ## Problem
 
@@ -24,7 +27,7 @@ The synthesis phase has yielded a provisional design for a product. Before we ma
 
 Recapitulating, we can state that simulation in the design cycle leads to a conditional prediction of the behavior of the designed product, with respect to this product in its totality, that is to say with respect to as many aspects as possible.
 
-At the beginning of the simulation phase we stand with empty hands. Thus we start the simulation phase, not immediately with deduction, like in the research cycle, but we first have to build up a logical system for that deduction. Since in designing, a number of aspects are involved, it often means that we have to construct a number of these deductive systems. Such systems are called **models**. Thus, at the beginning of the simulation phase, models should be constructed on the basis of which of the desired deductive operations can be carried out. In Chapter 5 we will go more extensively into the different models for simulation. Here we shall restrict ourselves to the following remarks.
+At the beginning of the simulation phase we stand with empty hands. Thus we start the simulation phase, not immediately with deduction, like in the research cycle, but we first have to build up a logical system for that deduction. Since in designing, a number of aspects are involved, it often means that we have to construct a number of these deductive systems. Such systems are called **models**. Thus, at the beginning of the simulation phase, models should be constructed on the basis of which of the desired deductive operations can be carried out.
 
 Deduction always takes place in a logical system. Logical systems belong to the domain of the mind (although they can be interpreted materially in books and the like). Some simulation models, for example mathematical models, directly form such logical systems within which deductions can be performed. Yet, many simulations call upon the help of experiments with physical models, which are considered, with respect to a certain aspect, as homomorphisms [^homomorphism] of the original.
 
@@ -36,7 +39,7 @@ During evaluation in the design cycle, comparisons are made between simulated de
 
 ## Decision
 
-In the design cycle we encounter the element “decision” at this level. The decision aspect is expressed more explicitly in the design process. Here it concerns various possibilities to continue. First of all, the pro-visional design concerned can be improved in one or more iterations. The feedback arrows reflect this. But a decision can also be made to generate more design alternatives. The feedback arrows also clearly show this option. And finally, the decision can refer to choosing an attractive alternative from the collection of generated designs. The process ends with the yield of a number of acceptable designs, or – one decision step further – with the manufacturing of the most attractive design.
+In the design cycle we encounter the element “decision” at this level. The decision aspect is expressed more explicitly in the design process. Here it concerns various possibilities to continue. First of all, the provisional design concerned can be improved in one or more iterations. The feedback arrows reflect this. But a decision can also be made to generate more design alternatives. The feedback arrows also clearly show this option. And finally, the decision can refer to choosing an attractive alternative from the collection of generated designs. The process ends with the yield of a number of acceptable designs, or – one decision step further – with the manufacturing of the most attractive design.
 
 All of these designs are (irrespective of their often beautiful representations in drawings, mock-ups, scale models and the like) in the domain of the mind. Yet, that is not the intended final station, like knowledge in the research cycle. The design result requires to be realized in the domain of material reality, in order to leave the possible world in which it was conceived and to enter the factual world as a product. The design as a result of the design cycle is an intermediate station. It points to the realized product as a final station of the entire technological process, and that lies in the domain of the material reality.
 

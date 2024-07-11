@@ -1,6 +1,6 @@
 # 6.2. System thinking process
 
-> Systems thinking is a way of making sense of the complexity of the world by looking at it in terms of wholes and relationships rather than by splitting it down into its parts.It has been used as a way of exploring and developing effective action in complex contexts, enabling systems change. 
+> Systems thinking is a way of making sense of the complexity of the world by looking at it in terms of wholes and relationships rather than by splitting it down into its parts. It has been used as a way of exploring and developing effective action in complex contexts, enabling systems change. 
 
 - <cite>Wikipedia<cite>
 
@@ -35,5 +35,7 @@ in which the parts are purposeful but the whole is not.
 | Animated      | Not purposeful | Purposeful     |
 | Social        | Purposeful     | Purposeful     |
 | Ecological    | Purposeful     | Not purposeful |
+
+The engineering design process can be modeled as a social system where both the parts and whole are purposeful or goal-oriented.
 
 [^1] Ackoff, R. L. (1999). Ackoff’s best: His classic writings on management. (No Title).
