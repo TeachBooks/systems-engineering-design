@@ -1,9 +1,7 @@
 (intro)=
-# Welcome to the Template Book
+# System Engineering Design
 
-_Write book intro here. This is the first page the student will see when opening the url._
-
-This book can be used as a template for other books. It includes all software developed by the CEG interactive books initiative and make it easier to keep various software in those other books up to date.
+This book is about a novel preference-based design methodology. It allows for group design decision making on engineering design problems. With the use of this methodology, it is possible to find engineering design solutions that have the highest overall group preference and are also feasible.
 
 ---
 

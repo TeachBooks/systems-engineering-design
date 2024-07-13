@@ -84,7 +84,7 @@ $$
 
 ### Find the optimal design having the highest preference score
 
-Text.
+Running the optimization yields a **local optimal design configuration** [^1] as shown in the figure below. Note that the municipality has 'only' $1/13$th of the weight and that the museum staff has $12/13$th of the weight. This may be debatable, and it is up to the reader to change the model so that both stakeholders have the same weight attached
 
 <div style="text-align: center;">
   <img src="./images/smaresult.png" alt="Chapter 9" width="70%">
