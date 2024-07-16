@@ -55,7 +55,7 @@ parts:
     - file: chapters/chapter_10.md
     - file: chapters/chapter_11.md
       sections:
-      - file: chapters/chapter_11_1.md
+      - file: chapters/chapter_11_1.ipynb
 
 
 
