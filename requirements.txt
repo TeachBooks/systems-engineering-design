@@ -1,6 +1,10 @@
 # first list the packages you wish to download from PyPI
 teachbooks # depends on jupyter-book
 # numpy
+<<<<<<< Updated upstream
+=======
+# generlic_algorithm_pfm
+>>>>>>> Stashed changes
 
 # docutils version for reference page formatting
 docutils==0.17.1

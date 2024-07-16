@@ -52,6 +52,7 @@ parts:
       - file: chapters/chapter_9_2.md
       - file: chapters/chapter_9_3.md
       - file: chapters/chapter_9_4.md
+    - file: chapters/chapter_10.md
     - file: chapters/chapter_11.md
       sections:
       - file: chapters/chapter_11_1.ipynb
