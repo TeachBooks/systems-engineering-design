@@ -52,6 +52,10 @@ parts:
       - file: chapters/chapter_9_2.md
       - file: chapters/chapter_9_3.md
       - file: chapters/chapter_9_4.md
+    - file: chapters/chapter_10.md
+      sections:
+      - file: chapters/chapter_10_1.md
+
 
 
 
