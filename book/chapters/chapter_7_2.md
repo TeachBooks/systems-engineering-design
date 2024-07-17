@@ -12,7 +12,7 @@ What combination of Standard and Deluxe computer towers will maximize XYZ's prof
 
 For this problem the controlled variables are the number of Standard and Deluxe computer towers. The uncontrolled variables are the profit per unit. The objective is the total profit which needs to be maximized. The constraints are the number of Standard and Deluxe computer towers in stock, and also the number of hard drives in stock.
 
-Because of the simplicity of this optimization problem we are able to solve it graphically.
+Because of the simplicity of this optimization problem we are able to solve it graphically. Run the code below to obtain the graphical output. 
 
 <div style="text-align: center;">
   <img src="./images/chapter_7.png" alt="chapter_7" width="70%">
