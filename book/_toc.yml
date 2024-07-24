@@ -57,6 +57,8 @@ parts:
       sections:
       - file: chapters/chapter_11_1.ipynb
       - file: chapters/chapter_11_2.ipynb
+      - file: chapters/chapter_11_3.ipynb
+      - file: chapters/chapter_11_4.ipynb
 
 
 
