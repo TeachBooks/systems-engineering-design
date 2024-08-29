@@ -10,15 +10,15 @@ Whereas the desirability aspect is determined by the municipality's wishes with 
   <img src="./images/spoorzone.png" alt="Chapter 9" width="70%">
 </div>
 
-## Specify the design variables
+## Step 1: Specify the design variables
 
 The municipality’s urban design department is interested in the composition of the new area. The design department defines the composition by allowed lower and upper decision variable values for each function; the amount of square meters floor space for three types of houses $h_1 , h_2 , h_3$, offices $o$, cultural facilities $c$ and the percentage open space $s$.
 
-## Retrieve decision maker's objectives
+## Step 2: Retrieve decision maker's objectives
 
 In this case there is a one-to-one relationship between design variables and objectives.
 
-## Determine the preference functions for each objective
+## Step 3:Specify the preference functions for each objective
 
 * The municipality rates a synthetic design alternative having 80 student houses at 0, a synthetic alternative having 155 at 30 and a synthetic alternative having 180 student houses at 100.
 
@@ -37,11 +37,11 @@ In this case there is a one-to-one relationship between design variables and obj
 </div>
 
 
-### To each objective assign decision maker's weights
+### Step 4: To each objective assign decision maker's weights
 
 For this problem the weights are assumed to be equal, i.e. $w_1 \ldots w_6 = \frac{1}{6}$.
 
-### Determine the design constraints
+### Step 5: Determine the design constraints
 
 For this case two design constraints are used. The first relates the floor space of each function and the required open space to the
 available amount of land:
@@ -59,7 +59,7 @@ The second relates the required amount of open space per house to the available 
 
 $$85 h_1 + 85 h_2 + 75 h_3 \leq 100500 s$$
 
-### Find the optimal design having the highest preference score
+### Step 6: Find the optimal design having the highest preference score
 
 Running the optimization yields a local [^1] optimal design configuration having 178 student houses, 100 starter houses, 80 remaining houses, 20 000 square meters offices, 30 000 square meters cultural facilities having an open space ratio of 0.445 and is shown in the below figure.
 

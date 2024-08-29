@@ -19,7 +19,7 @@ This dilemma could be resolved by the North Sea Island option: moving the take-o
 
 Van Gunsteren solved this problem using the **constraint method** within Open Design methodology. As discussed in Chapter 5, this process has significant arbitrary elements in the sense that its final solution relies on unstructured negotiation.
 
-### Specify the design variables
+### Step 1: Specify the design variables
 
 The following decision makers are identified along with the decision variables they are interested in:
 
@@ -28,11 +28,11 @@ The following decision makers are identified along with the decision variables t
 * The Ministry of Environment is interested in the distance (decision variable $d$ in kilometers) between the island and the shore.
 * The airport is interested in the number of flight movements (decision variable $f$ in 100k flight movements).
 
-### Retrieve decision maker's objectives
+### Step 2: Retrieve decision maker's objectives
 
 In this case there is a one-to-one relationship between design variables and objectives.
 
-### Determine the preference functions for each objective
+### Step 3: Specify the preference functions for each objective
 
 * The Ministry of Finance rates a synthetic alternative that would cost 15 billion dollars at 100 and an alternative that would cost 40 billion dollars at 0. A third alternative costing 20 billion dollars is rated at 20.
 
@@ -48,11 +48,11 @@ The resulting preference functions are shown in the figure below.
   <img src="./images/schipholcasefunctions.png" alt="Chapter 9" width="70%">
 </div>
 
-### To each objective assign decision maker's weights
+### Step 4: To each objective assign decision maker's weights
 
 For this problem the weights are assumed to be equal, i.e. $w_1 \ldots w_4 = 0.25$.
 
-### Determine the design constraints
+### Step 5: Determine the design constraints
 
 For this experiment two design constraints were used. The first relates the distance between the island and the shore (decision variable $d$ in kilometers) and the time passengers have to spend in the shuttle (decision variable $t$ in hours) using a postulated shuttle speed of 120 kilometers per hour:
 
@@ -62,7 +62,7 @@ The second design constraint relates the number of flight movements (decision va
 
 $$15 + 0.15(f - 6) + 0.2(d - 10) \leq i$$
 
-### Find the optimal design having the highest preference score
+### Step 6: Find the optimal design having the highest preference score
 
 Running the optimization yields a local [^1] optimal design configuration costing 21.64 billion dollars, requiring passengers to spend half an hour in the shuttle where the island is at a distance of 40 kilometers from the shore and accommodates 10 x 100k flight movements and is shown in the below figure.
 
