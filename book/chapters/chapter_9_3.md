@@ -2,11 +2,11 @@
 
 The main problem to solve: which allocation of functions to the primary location (existing building and extension) and secondary location is feasible and most desirable?
 
-### Specify the design variables
+### Step 1: Specify the design variables
 
 The design variables relate to the floor space allocated to 7 functions on the primary $p_1 \ldots p_7$ and 5 functions on secondary location $s_1 \ldots s_5$. 
 
-### Retrieve decision maker's objectives
+### Step 2: Retrieve decision maker's objectives
 
 The following decision makers are identified along with the objectives they are interested in:
 
@@ -28,7 +28,7 @@ The following decision makers are identified along with the objectives they are 
 | Offices       | $p_7$    | 1 624   | 2 230  |
 |               | $s_5$    | 168     | 281    |
 
-### Determine the preference functions for each objective
+### Step 3: Specify the preference functions for each objective
 
 The staff rate the minimal floor space values at 0 and the ideal values at 100. Intermediate values are rated according the the below table.
 
@@ -56,11 +56,11 @@ The resulting preference functions are shown in the figure below.
 </div>
 
 
-### To each objective assign decision maker's weights
+### Step 4: To each objective assign decision maker's weights
 
 For this problem the weights are assumed to be equal, i.e. $w_1 \ldots w_{13} = \frac{1}{13}$.
 
-### Determine the design constraints
+### Step 5: Determine the design constraints
 
 For this experiment the first design constraint relates the floor space and the investment.
 
