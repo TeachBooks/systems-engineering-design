@@ -44,7 +44,7 @@ parts:
       - file: chapters/chapter_8_2.md
       - file: chapters/chapter_8_3.md
       - file: chapters/chapter_8_4.md
-      - file: chapters/chapter_8_5.md
+      - file: chapters/chapter_8_5.ipynb
       - file: chapters/chapter_8_6.md
     - file: chapters/chapter_9.md
       sections:
@@ -59,7 +59,6 @@ parts:
       - file: chapters/chapter_11_2.ipynb
       - file: chapters/chapter_11_3.ipynb
       - file: chapters/chapter_11_4.ipynb
-      - file: chapters/chapter_11_a.ipynb
 
 
 
