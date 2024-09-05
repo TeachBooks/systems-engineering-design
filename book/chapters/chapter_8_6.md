@@ -1,6 +1,8 @@
 # 8.6. The urban planning multi-stakeholder problem
 
-A municipality has come into contact with a project developer interested in developing four types of houses. The types of houses differ mainly in the selling price, ranging from affordable to expensive houses. The municipality has limited the total number of houses to between 200 and 260. The selling prices have been established, as has the developer’s fee for each type of house. All data is summarized in the table below.
+A municipality is facing a housing shortage concerning mainly low income household types (qualitative problem statement). It has acquired a plot of land that can be developed for low income housing purposes (qualitative goal statement). It has come into contact with a project developer interested in developing the plot of land (qualitative goal statement).  The municipality wants to make sure that different types of households are able to acquire houses and defined four types of houses (design variables). The types of houses differ mainly in the selling price, ranging from affordable to expensive houses. The municipality wants the area to be as much accessible to low income households as possible and therefeore wants to maximize the number of affordable houses type A and D (quantitative goal statement) and has limited the total number of houses to between 200 and 260 (constraints). The project developer is mainly interested in making a profit and wants to maximize the total fee (operationalized goal). The selling prices have been established, as has the developer’s fee for each type of house. All data is summarized in the table below.
+
+Within the decision making process both parties agree that they have equal power.
 
 | Type | Selling price  | Developer's fee |
 | ---- | -------------- | --------------- |

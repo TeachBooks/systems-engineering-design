@@ -1,10 +1,23 @@
 # 9.1. The Tilburg area development case
 
-Tilburg is one of the larger cities within the province of Noord Brabant, the Netherlands, and serves as a public transport hub connecting some major cities within the province: Breda, Den Bosch and Eindhoven. The railway zone running through Tilburg acts as a barrier between the city center to the South and the residential areas to the North and plans are being developed to solve this problem. An example of such a plan is shown in the figure below.
+Tilburg is one of the larger cities within the province of Noord Brabant, the Netherlands, and serves as a public transport hub connecting some major cities within the province: Breda, Den Bosch and Eindhoven. The railway zone running through Tilburg acts as a barrier between the city center to the South and the residential areas to the North (qualitative problem statement) and plans are being developed to solve this problem. An example of such a plan is shown in the figure below.
 
 The idea is that by developing a mix of different functions within the railway zone the barrier is removed so that the center is connected to the northerly residential areas. The question then arises: What mix of functions is both feasible and most desirable?
 
-Whereas the desirability aspect is determined by the municipality's wishes with respect to what amount of what function is most desirable, the feasibility aspect is determined by the actual plot size and density indicators, i.e. Floor Space Index (FSI), Ground Space Index (GSI), and Open-Space Ratio (OSR).
+Whereas the desirability aspect is determined by the municipality’s wishes with respect to what amount of what function is most desirable, the feasibility aspect is determined by the actual plot size and density indicators, i.e. Floor Space Index (FSI), Ground Space Index (GSI), and Open-Space Ratio (OSR) [^OSR].
+
+The municipality wants the area to be livable (qualitative goal statement) and therefore has defined that a mix of the following functions should be maximized (design variables but also operationalized goals):
+
+* Student houses
+* Starter houses
+* Remaining houses
+* Cultural facilities
+
+Furthermore, in order to make the area livable it want to minimize the amount of offices (design variable but also operationalized goal). Finally, also related to making the area livable, it wants the open space ratio to be maximized (operationalized goal).
+
+The open space requirement of a given design configuration has to within the size of the area, i.e. the amount of available land (constraint). The amount of open space per house type also has to be within the size of the area (constraint). The municipality has contracted an urban planner to determine the exact coefficients to be used for each function and house type.
+
+Within the decision making process all goals are given the same weight. Note that this is a single decision maker problem.
 
 <div style="text-align: center;">
   <img src="./images/spoorzone.png" alt="Chapter 9" width="70%">
@@ -68,3 +81,9 @@ Running the optimization yields a local [^1] optimal design configuration having
 </div>
 
 [^1]: The nature of non-linear optimization is such that, if the problem’s feasible set is non-empty, it can only find a so-called local optimum. As a result, it may be that, depending on the start point of the search, your optimization run finds a different optimal solution than presented here. This is a drawback of non-linear optimization.
+
+[^OSR]: OSR in Urban Planning sets benchmarks for urban development. Establishing minimum OSR requirements in urban planning regulations ensures that developers allocate sufficient open spaces. This helps create a balance between built-up areas and green spaces, preventing overcrowding and maintaining a healthy urban environment.
+OSR also plays a crucial role in ensuring equitable access to open spaces for all residents, regardless of socio-economic background. Planning policies that mandate OSR take into account factors such as population density and proximity to open spaces, ensuring that communities have fair and adequate access to recreational areas.
+By integrating OSR into urban planning, cities can promote sustainability and resilience. Open spaces can be designed to incorporate green infrastructure, such as rain gardens and urban forests, facilitating water management, reducing energy consumption, and promoting ecological balance. A higher OSR contributes to healthier communities by providing opportunities for physical activity, reducing sedentary lifestyles, and improving air quality. Accessible open spaces promote active living and contribute to the prevention of chronic diseases, such as obesity and cardiovascular conditions [^2].
+
+[^2]: preliminaryzoninganalysis.com
