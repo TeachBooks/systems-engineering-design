@@ -52,14 +52,14 @@ parts:
       - file: chapters/chapter_9_2.md
       - file: chapters/chapter_9_3.md
       - file: chapters/chapter_9_4.md
-    - file: chapters/chapter_10.md
-    - file: chapters/chapter_11.md
-      sections:
-      - file: chapters/chapter_11_1.ipynb
-      - file: chapters/chapter_11_2.ipynb
-      - file: chapters/chapter_11_3.ipynb
-      - file: chapters/chapter_11_4.ipynb
-      - file: chapters/chapter_11_5.ipynb
+    # - file: chapters/chapter_10.md
+    # - file: chapters/chapter_11.md
+    #   sections:
+    #   - file: chapters/chapter_11_1.ipynb
+    #   - file: chapters/chapter_11_2.ipynb
+    #   - file: chapters/chapter_11_3.ipynb
+    #   - file: chapters/chapter_11_4.ipynb
+    #   - file: chapters/chapter_11_5.ipynb
 
 
 
