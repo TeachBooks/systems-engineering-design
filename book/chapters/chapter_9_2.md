@@ -5,7 +5,7 @@ The dilemma for Schiphol is the following [van Gunsteren, 2005]:
 * To maintain its position as a main port, the number of flight movements per year should be above a certain threshold.
 * To keep the environmental effects within acceptable limits, in particular noise hindrance but also air pollution, the number of flight movements should be kept below a certain level.
 
-This dilemma could be resolved by the North Sea Island option: moving the take-off and landing of airplanes to an artificial island in the North Sea which is connected by a train shuttle to the present airport. Preliminary studies of such an artificial island by Royal Haskoning & Van Oord are shown in the figures below.
+This dilemma (qualitative problem statement) could be resolved by the North Sea Island option: moving the take-off and landing of airplanes to an artificial island in the North Sea which is connected by a train shuttle to the present airport. Preliminary studies of such an artificial island by Royal Haskoning & Van Oord are shown in the figures below.
 
 <div style="text-align: center;">
   <img src="./images/Royal_Haskoning_Van_Oord_Landcreation_2a_S.jpg" alt="Chapter 9" width="70%">
@@ -15,7 +15,19 @@ This dilemma could be resolved by the North Sea Island option: moving the take-o
   <img src="./images/Royal_Haskoning_Van_Oord_North_Sea_International_Airport_1_S.jpg" alt="Chapter 9" width="70%">
 </div>
 
+For this example four stakeholders and their respective goals are defined:
 
+* The Ministry of Finance, interested in not overspending public money (qualitative goal) which is defined as minimizing the investment (design variable but also operationalized goal).
+* The airlines interested in the comfort of travelers (qualitative goal) which is defined as minimizing travel time in the shuttle (design variable but also operationalized goal).
+* The Ministry of Environment interested in preserving nature (qualitative goal) which is defined as maximizing the distance between the island and the shore (design variable but also operationalized goal).
+* The airport interested in maintaining its position as a main port (qualitative goal) which is defined as maximizing the number of flight movements (design variable but also operationalized goal).
+
+A given design configuration has to meet 2 constraints:
+
+* The first constraint relates the distance of the island from the shore to the time that travelers have to spend in the shuttle. This means that a design configuration where the travel time is smaller than the minimum time travelers have to spend in the shuttle are considered infeasible (given a postulated speed of the shuttle).
+* The second constraint relates the number of flight movements and the distance to the investment. This means that a design configuration where the number of flight movements combined with the distance has a higher costh than the investment of that configuration is considered infeasible (given postulated investment figures).
+
+For the decision making process all parties agree that they have equal power.
 
 Van Gunsteren solved this problem using the **constraint method** within Open Design methodology. As discussed in Chapter 5, this process has significant arbitrary elements in the sense that its final solution relies on unstructured negotiation.
 
