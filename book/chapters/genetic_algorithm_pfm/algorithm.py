@@ -15,6 +15,16 @@ Solgi, R. M. (2020). geneticalgorithm: Genetic algorithm package for Python. Git
 from https://github.com/rmsolgi/geneticalgorithm
 
 Copyright (c) Harold van Heukelum, 2021
+
+--------Change made by Alexey Matyunin on 28/02/2024:-------
+
+Due to the a-fine-aggregator release on GitHub by Harold, all references to TetraSolver were scrapped and replaced by the
+a_fine_aggregator function with the same inputs.
+
+-------Change by Alexey Matyunin on 13/09/24----------------
+
+Changed all references to 'tetra' in the code to 'a_fine' to represent the use of the a_fine aggregator. Now to use it, in the GA options the 'aggregation' parameter must be set as 'a_fine'.
+
 """
 from time import perf_counter
 
@@ -25,8 +35,9 @@ from numpy.random import randint, normal
 from ._constraints import _const_handler
 from ._decoder import _Decoding
 from ._nextgen import _selection, _mutation, _crossover
-from .tetra_pfm import TetraSolver
+#from .tetra_pfm import TetraSolver
 from .weighted_minmax import aggregate_max
+from .a_fine_aggregator_main import a_fine_aggregator 
 
 
 class _Colors:
@@ -67,7 +78,7 @@ class GeneticAlgorithm:
              'real'.
 
             aggregation: the GA can be used as an ordinary GA by setting the aggregation to None (default). To call the
-            Preferendus, set this value to either 'tetra' or 'minmax' (depending on the method you want to use).
+            Preferendus, set this value to either 'a_fine' or 'minmax' (depending on the method you want to use).
 
             mutation_rate_order: The mutation can be influenced via this parameter (default: 2).
 
@@ -116,8 +127,8 @@ class GeneticAlgorithm:
                 assert item in ['int', 'bool', 'real'], "Type of variable in var_type_mixed must be 'int', 'bool or " \
                                                         "'real'"
 
-        assert self.aggregation in [None, 'tetra',
-                                    'minmax'], 'Wrong aggregation, should be tetra, minmax, or None (default)'
+        assert self.aggregation in [None, 'a_fine',
+                                    'minmax'], 'Wrong aggregation, should be a_fine, minmax, or None (default)'
         print(_Colors.WARNING + f'The type of aggregation is set to {self.aggregation}' +
               _Colors.RESET)
 
@@ -151,7 +162,7 @@ class GeneticAlgorithm:
         self.constraints = constraints
         self.cons_handler = cons_handler
 
-        self.solver = TetraSolver()
+        #self.solver = 
         self.dec = _Decoding(bounds=self.bounds, n_bits=self.n_bits, approach=self.approach)
 
     def _initiate_population(self):
@@ -203,7 +214,7 @@ class GeneticAlgorithm:
 
         if len(decoded_arr[mask_too_low]) > 1:
             w_masked, p_masked = self.objective(decoded_arr[mask_too_low], *self.args)
-            scores_masked = self.solver.request(w_masked, p_masked)
+            scores_masked = a_fine_aggregator(w_masked, p_masked)
             scores_arr[mask_too_low] = scores_masked
 
         return scores_arr.tolist()
@@ -237,9 +248,9 @@ class GeneticAlgorithm:
             check_div = round(np.max(np.unique(decoded, return_counts=True)[1]) / (len(pop) * len(pop[0])), 3)
 
             # evaluate all candidates in the population
-            if aggregation == 'tetra':
+            if aggregation == 'a_fine':
                 w, p = self.objective(decoded, *self.args)
-                scores = self.solver.request(w, p)
+                scores = a_fine_aggregator(w, p)
                 scores = self.rerun_eval(scores, decoded)
 
             elif aggregation == 'minmax':
@@ -261,14 +272,14 @@ class GeneticAlgorithm:
                                                                              stall_counter, check_div, length_cons))
 
             # check for new best solution; print current bests and stall counter to console
-            if aggregation == 'tetra':
+            if aggregation == 'a_fine':
                 check_array_complete_bits.append(pop[np.where(np.array(scores_feasible) ==
                                                               min(scores_feasible))[0][0]])
                 check_array_complete.append(decoded[np.where(np.array(scores_feasible) ==
                                                              min(scores_feasible))[0][0]].tolist())
 
                 w, p = self.objective(np.array(check_array_complete), *self.args)
-                result = self.solver.request(w, p)
+                result = a_fine_aggregator(w, p)
 
                 result = self.rerun_eval(result, check_array_complete)
 
@@ -384,15 +395,15 @@ class GeneticAlgorithm:
                                                                    'Diversity',
                                                                    'Number of non-feasible results'))
 
-        if self.aggregation == 'tetra':
+        if self.aggregation == 'a_fine':
             if self.start_point_population is None:
-                print(_Colors.WARNING + 'No initial starting point for the optimization with tetra is given. A random '
+                print(_Colors.WARNING + 'No initial starting point for the optimization with the a-fine-aggregator is given. A random '
                                         'population is generated.' + _Colors.RESET)
             else:
                 best = [self.dec.inverse_decode(member) for member in self.start_point_population]
                 pop = self._2nd_population(best)
 
-            best_eval, decoded, best = self._runner(pop, r_count, verbose, aggregation='tetra')
+            best_eval, decoded, best = self._runner(pop, r_count, verbose, aggregation='a_fine')
         elif self.aggregation == 'minmax':
             best_eval, decoded, best = self._runner(pop, r_count, verbose, aggregation='minmax')
 
