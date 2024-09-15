@@ -37,7 +37,7 @@ from ._decoder import _Decoding
 from ._nextgen import _selection, _mutation, _crossover
 #from .tetra_pfm import TetraSolver
 from .weighted_minmax import aggregate_max
-from .a_fine_aggregator_main import a_fine_aggregator 
+from .a_fine_aggregator_main1 import a_fine_aggregator 
 
 
 class _Colors:
