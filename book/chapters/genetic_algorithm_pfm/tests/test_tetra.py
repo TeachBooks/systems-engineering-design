@@ -51,8 +51,8 @@ def test_tetra(n=1):
         'n_pop': 250,
         'r_cross': 0.9,
         'max_stall': 15,
-        'tetra': True,
-        'aggregation': 'tetra'
+        'a_fine': True,
+        'aggregation': 'a_fine'
     }
 
     ga = GeneticAlgorithm(objective=objective, constraints=cons, bounds=bounds, options=options)

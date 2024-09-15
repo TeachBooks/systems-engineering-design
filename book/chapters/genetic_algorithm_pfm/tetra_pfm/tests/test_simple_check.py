@@ -4,10 +4,9 @@ import pathlib
 
 from scipy.interpolate import pchip_interpolate
 
-from genetic_algorithm_pfm.tetra_pfm import TetraSolver
+from .a_fine_aggregator_main import a_fine_aggregator
 
-solver = TetraSolver()
-
+solver = a_fine_aggregator()
 HERE = pathlib.Path(__file__).parent
 
 
