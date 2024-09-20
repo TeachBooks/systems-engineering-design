@@ -38,6 +38,7 @@ parts:
       - file: chapters/chapter_7_1.md
       - file: chapters/chapter_7_2.ipynb
       - file: chapters/chapter_7_3.md
+# START REMOVE-FROM-PUBLISH
     - file: chapters/chapter_8.md
       sections:
       - file: chapters/chapter_8_1.md
@@ -60,11 +61,6 @@ parts:
       - file: chapters/chapter_11_3.ipynb
       - file: chapters/chapter_11_4.ipynb
       - file: chapters/chapter_11_5.ipynb
-
-
-
-
-
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
