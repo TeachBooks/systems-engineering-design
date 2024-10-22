@@ -16,8 +16,16 @@ Below are some final remarks concerning the novelty of this approach.
 
 
 In classical books on negotiation a distinction is made between the following approaches for reaching a result:
+
+
 **Cooperate** – usually applied when stakeholders have similar interests
+
+
+
 **Negotiate** – usually applied when stakeholders have conflicting interests
+
+
+
 **Fight** – usually applied when one stakeholder assumes to gets the best result by means of a fight
 
 
