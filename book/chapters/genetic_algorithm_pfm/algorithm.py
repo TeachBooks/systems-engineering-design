@@ -296,7 +296,7 @@ class GeneticAlgorithm:
                     best = check_array_complete_bits[np.where(np.array(result) == min(result))[0][0]]
                     plot_array.append(decoded[np.where(np.array(scores_feasible) == min(scores_feasible))[0][0]])
 
-                result = np.array(np.round(result, 3))
+                result = np.array(np.round_(result, 3))
 
                 if -100.0 in result:
                     counter_1 = np.count_nonzero(result == -100.)
