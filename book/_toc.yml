@@ -63,6 +63,7 @@ parts:
       - file: chapters/chapter_11_3.ipynb
       - file: chapters/chapter_11_4.ipynb
       - file: chapters/chapter_11_5.ipynb
+      - file: chapters/chapter_11_6.ipynb
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
